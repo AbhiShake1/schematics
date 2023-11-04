@@ -4,4 +4,4 @@
 export class <%= singular(classify(name)) %>Entity {
   @Field(() => Int, { description: 'Example field (placeholder)' })
   exampleField: number;
-}<% } else { %>export class <%= singular(classify(name)) %> {}<% } %>
+}<% } else { %>export class <%= singular(classify(name))Entity %> {}<% } %>
